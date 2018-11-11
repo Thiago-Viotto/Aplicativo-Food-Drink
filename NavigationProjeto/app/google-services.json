@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "985762461962",
+    "firebase_url": "https://fooddrink-391c8.firebaseio.com",
+    "project_id": "fooddrink-391c8",
+    "storage_bucket": "fooddrink-391c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985762461962:android:02de0bc51ab720f8",
+        "android_client_info": {
+          "package_name": "br.unicamp.ft.t187583_a165484.navigationprojeto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985762461962-lce07e8k6i16ivcpea9uep4fr9iq2ej7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.unicamp.ft.t187583_a165484.navigationprojeto",
+            "certificate_hash": "9141c91fd907fae31fd06122ea94edcab6caebaf"
+          }
+        },
+        {
+          "client_id": "985762461962-p84mf5321c0o3la5mmc4ankm4qn6ar2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZOhqdUgfiZa1O7lOXCjdubruv5dgcgxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985762461962-p84mf5321c0o3la5mmc4ankm4qn6ar2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

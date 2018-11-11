@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">985762461962-p84mf5321c0o3la5mmc4ankm4qn6ar2f.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fooddrink-391c8.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">985762461962</string>
+    <string name="google_api_key" translatable="false">AIzaSyCZOhqdUgfiZa1O7lOXCjdubruv5dgcgxQ</string>
+    <string name="google_app_id" translatable="false">1:985762461962:android:02de0bc51ab720f8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCZOhqdUgfiZa1O7lOXCjdubruv5dgcgxQ</string>
+    <string name="google_storage_bucket" translatable="false">fooddrink-391c8.appspot.com</string>
+    <string name="project_id" translatable="false">fooddrink-391c8</string>
+</resources>

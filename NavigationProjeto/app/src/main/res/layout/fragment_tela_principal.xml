@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipalFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fundotelainicial">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FoodDrink"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A cada descoberta, um novo prato favorito"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="14dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imgNossosPratos"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/cardapio" />
+
+        <ImageView
+            android:id="@+id/imgNossasBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/bebidas" />
+
+        <ImageView
+            android:id="@+id/imgNossasCategorias"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/categoria" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/iconcasa"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cardapio"
+            android:icon="@drawable/iconcardapio"
+            android:title="Cardápio" />
+        <item
+            android:id="@+id/nav_bebidas"
+            android:icon="@drawable/iconebebida"
+            android:title="Bebidas" />
+        <item
+            android:id="@+id/nav_meucarrinho"
+            android:icon="@drawable/iconcesta"
+            android:title="Meu carrinho" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/iconcategoria"
+            android:title="Histórico" />
+    </group>
+
+</menu>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MEU CADASTRO"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeNome"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/iconecliente" />
+
+            <EditText
+                android:id="@+id/nomeEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome/Empresa"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iconeTipoPessoa"
+                android:layout_width="34dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="1dp"
+                app:srcCompat="@drawable/iconetipopessoa" />
+
+            <RadioGroup
+                android:id="@+id/tipopessoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/fisica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pessoa Física"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/juridica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pessoa Jurídica"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeCPF"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconecpf" />
+
+            <EditText
+                android:id="@+id/cpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:hint="CPF/CNPJ"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeData"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconedata" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:hint="Data de nascimento"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeRua"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconerua" />
+
+            <EditText
+                android:id="@+id/endereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:hint="Endereço - (Rua, Bairro, Número)"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeCidade"
+                android:layout_width="40dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconecidade" />
+
+            <EditText
+                android:id="@+id/cidade"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="Cidade"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:hint="País"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spinnerPais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/paises"
+                android:prompt="@string/escolhaPais"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeTelefone"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconetelefone" />
+
+            <EditText
+                android:id="@+id/telefone"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:hint="Telefone"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:hint="Estado"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spinnerEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/estados"
+                android:prompt="@string/escolhaEstado" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeEmail"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconeemail" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:hint="Email"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconeSenha"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                app:srcCompat="@drawable/iconesenha" />
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="CADASTRAR" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
