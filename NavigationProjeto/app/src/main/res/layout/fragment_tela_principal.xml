@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaPrincipalFragment">
+    tools:context=".Fragments.TelaPrincipalFragment">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -39,19 +39,17 @@
             android:id="@+id/imgNossosPratos"
             android:layout_width="match_parent"
             android:layout_height="125dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/cardapio" />
 
         <ImageView
             android:id="@+id/imgNossasBebidas"
             android:layout_width="match_parent"
             android:layout_height="125dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/bebidas" />
 
-        <ImageView
-            android:id="@+id/imgNossasCategorias"
-            android:layout_width="match_parent"
-            android:layout_height="125dp"
-            android:src="@drawable/categoria" />
+
 
     </LinearLayout>
 
@@ -61,6 +59,13 @@
         android:orientation="horizontal"
         android:layout_gravity="center">
 
+
+        <Button
+            android:id="@+id/btnSair"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SAIR"
+            android:layout_marginTop="50dp"/>
 
 
 </LinearLayout>

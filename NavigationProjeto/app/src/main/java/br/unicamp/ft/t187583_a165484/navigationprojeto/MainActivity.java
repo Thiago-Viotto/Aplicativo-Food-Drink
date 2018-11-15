@@ -1,6 +1,5 @@
 package br.unicamp.ft.t187583_a165484.navigationprojeto;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -21,9 +20,17 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Fragments.BebidasFragment;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Fragments.CardapioFragment;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Fragments.ListaPedidoFragmento;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Fragments.PedidoFragmento;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Fragments.TelaPrincipalFragment;
 import br.unicamp.ft.t187583_a165484.navigationprojeto.Interfaces.OnBebidaRequest;
 import br.unicamp.ft.t187583_a165484.navigationprojeto.Interfaces.OnCardapioRequest;
-import br.unicamp.ft.t187583_a165484.navigationprojeto.Interfaces.OnCategoriaRequest;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Model.Bebida;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Model.Comida;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Model.Conexao;
+import br.unicamp.ft.t187583_a165484.navigationprojeto.Model.Pedido;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -229,14 +236,14 @@ public class MainActivity extends AppCompatActivity
 
             Toast.makeText(MainActivity.this , "Você entrou no menu Meu carrinho",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_historico) {
-            /*
+
             Fragment historicoFragment = fragmentManager.findFragmentByTag("historico");
             if (historicoFragment == null) {
-                //historicoFragment = new ListDatasetFragment();
+                historicoFragment = new ListaPedidoFragmento();
             }
             replaceFragment(historicoFragment, "historico");
             Toast.makeText(MainActivity.this, "Você entrou no menu histórico", Toast.LENGTH_SHORT).show();
-            */
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

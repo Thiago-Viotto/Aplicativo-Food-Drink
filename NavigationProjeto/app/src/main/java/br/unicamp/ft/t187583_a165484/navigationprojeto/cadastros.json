@@ -1,0 +1,42 @@
+{
+  "cadastros": {
+    "-K2ib4H77rj0LYewF7dP": {
+      "id": "jkdfjkdfjkfdkkdf",
+      "nome": "Thiago",
+      "tipoPessoa": "fisica",
+      "CPF": "29889211455",
+      "data": "04/11/1997",
+      "endereco": "Rua Afonso",
+      "cidade": "Limeira",
+      "telefone": "256568989",
+      "estado": "SP",
+      "pais": "Brasil",
+      "email": "thiagohenriqueviotto1@gmail.com",
+      "senha": "123"
+    }
+  },
+  "pedidos" : {
+    "-K2ib4H77rj0LYewF7dP" : {
+      "comidas": [
+        {
+          "idFoto" : 1252632,
+          "nome": "picanha",
+          "quantidade" : "2",
+          "preço" : 36.7,
+          "descrição" : "Picanha com cebola"
+        }
+      ],
+      "bebidas": [
+        {
+          "idFoto" : 1263,
+          "nome": "H2O",
+          "quantidade" : "1",
+          "preço" : 4,
+          "descrição" : "H20 500ml"
+        }
+      ]
+    },
+    "idCliente" : "20",
+    "total" : 13
+  }
+}
