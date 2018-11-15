@@ -1,4 +1,4 @@
-# Aplicativo-Food-Drink
+# Aplicativo Food Drink
 O aplicativo possibilita o cadastro de usuários, autenticação do login com Firebase, adição de comidas e bebidas no carrinho, remoção de itens do carrinho, finalização do pedido. Após finalizado, o pedido é armazenado no Firebase Realtime Database do usuário autenticado e listado no menu histórico.
 
 ![screenshot_20181115-114255](https://user-images.githubusercontent.com/30843151/48557386-c1133000-e8cd-11e8-8983-fdfe3c7a2241.png)
